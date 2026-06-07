@@ -1,9 +1,12 @@
 <!doctype html>
+
 <html lang="de">
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>myBsisa</title>
+  <title>myBsisa – Coming Soon</title>
+  <meta name="description" content="myBsisa – Coming Soon">
+
   <style>
     html, body {
       margin: 0;
@@ -17,16 +20,108 @@
       justify-content: center;
       background: #fff4df;
       padding: 30px;
+      font-family: Arial, sans-serif;
+      color: #1f3b18;
+      text-align: center;
     }
 
-    img {
-      width: min(900px, 92vw);
+    .page {
+      max-width: 1000px;
+      width: 100%;
+    }
+
+    .logo {
+      width: min(850px, 92vw);
       height: auto;
       display: block;
+      margin: 0 auto 35px;
+    }
+
+    h1 {
+      margin: 0 0 14px;
+      font-size: clamp(2rem, 5vw, 4rem);
+      color: #2b7a34;
+      letter-spacing: -1px;
+    }
+
+    .claim {
+      font-size: clamp(1.1rem, 2.5vw, 1.6rem);
+      color: #d8a51d;
+      font-weight: 700;
+      margin-bottom: 22px;
+    }
+
+    .text {
+      font-size: 1.05rem;
+      line-height: 1.7;
+      color: #34522b;
+      margin-bottom: 34px;
+    }
+
+    .contact {
+      display: inline-block;
+      background: rgba(255,255,255,0.65);
+      border: 1px solid rgba(43,122,52,0.18);
+      border-radius: 22px;
+      padding: 22px 28px;
+      box-shadow: 0 12px 40px rgba(43,122,52,0.12);
+    }
+
+    .contact h2 {
+      margin: 0 0 12px;
+      font-size: 1.2rem;
+      color: #2b7a34;
+    }
+
+    .contact p {
+      margin: 7px 0;
+      font-size: 1rem;
+      color: #1f3b18;
+    }
+
+    .contact a {
+      color: #2d8fd5;
+      text-decoration: none;
+      font-weight: 700;
+    }
+
+    .footer {
+      margin-top: 34px;
+      font-size: 0.85rem;
+      color: #6f7f62;
     }
   </style>
+
 </head>
+
 <body>
-  <img src="logo-mybsisa.png" alt="myBsisa Logo">
+  <main class="page">
+    <img class="logo" src="logo-mybsisa.png" alt="myBsisa Logo">
+
+```
+<h1>Coming Soon</h1>
+
+<div class="claim">
+  Natürlich. Stark. Lecker.
+</div>
+
+<p class="text">
+  Unsere neue myBsisa Webseite befindet sich gerade im Aufbau.<br>
+  Bald findest du hier unsere Produkte, Geschichte und Bestellmöglichkeiten.
+</p>
+
+<section class="contact">
+  <h2>Kontakt</h2>
+  <p>E-Mail: <a href="mailto:info@mybsisa.com">info@mybsisa.com</a></p>
+  <p>Instagram: <a href="https://www.instagram.com/" target="_blank">@mybsisa</a></p>
+  <p>Website: <a href="https://mybsisa.com">www.mybsisa.com</a></p>
+</section>
+
+<div class="footer">
+  © myBsisa · Tradition. Energie. Natur.
+</div>
+```
+
+  </main>
 </body>
 </html>
